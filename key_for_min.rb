@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     if i[1] < max_value
       max_value = i[1]
       lowest_value_key = i[0]
-      elsif name_hash >= nil
+      elsif name_hash >= []
       name_hash = nil
     end
   end
